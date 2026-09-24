@@ -1,6 +1,6 @@
-# BlackFoursquare website
+# Black 4 Square website
 
-A dependency-free static site prepared for GitHub Pages.
+A static site for GitHub Pages with no build step and no JavaScript.
 
 ## Deploy on GitHub Pages
 
@@ -15,6 +15,6 @@ The site uses relative asset paths, so it works both at a custom domain and at a
 
 - `index.html` — page structure and copy
 - `styles.css` — responsive layout and visual design
-- `assets/` — locally hosted Google Play artwork
+- `assets/` — logo (`logo.webp`, `logo-512.png`) and locally hosted Google Play artwork
 
-No build step or JavaScript is required.
+Fonts (Anton, Barlow, Barlow Condensed) load from Google Fonts, with system fallbacks. Each game links to its Google Play page and to its WebGL build on `daniildenysov.github.io`.
